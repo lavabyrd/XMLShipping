@@ -22,6 +22,8 @@ messagetime.appendChild(text)
 messagereference = doc.createElement("MessageReference")
 serviceheader.appendChild(messagereference)
 text = doc.createTextNode("Example Message Reference")
+# i can use raw_input to caputre the required reference, perhaps password?
+# text = doc.createTextNode(raw_input("What do you want your reference to be? "))
 messagereference.appendChild(text)
 
 
