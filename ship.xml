@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<req:ShipmentValidateRequestAP xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com ship-val-req_AP.xsd">
+	<Request>
+		<ServiceHeader>
+			<MessageTime>time</MessageTime>
+			<MessageReference>Example Message Reference</MessageReference>
+			<SiteID>User ID</SiteID>
+			<Password>PA44word</Password>
+		</ServiceHeader>
+	</Request>
+	<LanguageCode>en</LanguageCode>
+	<PiecesEnabled>Y</PiecesEnabled>
+	<Billing>
+		<ShipperAccountNumber>96000111</ShipperAccountNumber>
+		<ShippingPaymentType>S</ShippingPaymentType>
+		<BillingAccountNumber>96000111</BillingAccountNumber>
+		<DutyPaymentType>R</DutyPaymentType>
+		<DutyAccountNumber>96000111</DutyAccountNumber>
+	</Billing>
+	<Consignee>
+		<CompanyName>Cnee company Name</CompanyName>
+		<AddressLine>Cnee Address Line 1</AddressLine>
+		<AddressLine>Cnee Address Line 2</AddressLine>
+		<City>Cnee City</City>
+		<Division>Cnee division</Division>
+		<DivisionCode>Cnee Division Code</DivisionCode>
+		<Postalcode>Cnee Post Code</Postalcode>
+		<CountryCode>Cnee 2 digit country code</CountryCode>
+		<CountryName>Cnee country Name Full</CountryName>
+		<Contact>
+			<PersonName>Cnee Contact Name</PersonName>
+			<PhoneNumber>Cnee Number</PhoneNumber>
+			<PhoneExtension>Cnee Phone Extension</PhoneExtension>
+			<FaxNumber>Cnee Fax Number</FaxNumber>
+			<Telex>Cnee Telex Number</Telex>
+			<Email>
+				<From>Cnee@Cneecompany.com</From>
+				<To>To@cneecompany.com</To>
+				<cc>CC@Cneecompany.com</cc>
+				<Subject>Cnee Email Subject</Subject>
+				<ReplyTo>Reply@cneecompany.com</ReplyTo>
+				<Body>Cnee Email Body</Body>
+			</Email>
+		</Contact>
+	</Consignee>
+</req:ShipmentValidateRequestAP xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com ship-val-req_AP.xsd">
